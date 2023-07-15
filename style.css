@@ -1,0 +1,484 @@
+/* *
+{
+    background-color: rgb(64, 63, 63);
+} */
+@media only screen and (max-width:500px)
+{
+    #left,#right,body
+    {
+        width: 100%;
+    }
+}
+.parts
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 573px;
+    
+    
+   
+}
+#left
+{
+    float: left;
+    background-color: rgb(64, 63, 63);
+    width:25%;
+}
+#right
+{
+    float: left;
+    background-color: rgb(8, 8, 8);
+    width:71.5%;
+    background-image: url("image/home-background.PNG");
+    z-index: -1;
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+.profile-pic
+{
+    height: 150px;
+    width:150px;
+    border-radius: 100px;
+    position: absolute;
+    margin: 10px;
+    padding: 5px;
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid white;
+    /* box-shadow: 8px 5px 5px rgb(179, 174, 174); */
+}
+/* .left-content
+{
+    display: flex;
+    flex-direction: row;
+} */
+.tabs
+{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(64, 63, 63); */
+    /* margin: 10px; */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.home
+{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    margin: 8px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgb(179, 174, 174);
+}
+.about
+{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    margin: 8px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgb(179, 174, 174);
+}
+.skills
+{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    margin: 8px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgb(179, 174, 174);
+}
+.contact
+{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    margin: 8px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgb(179, 174, 174);
+}
+.project
+{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    margin: 8px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 30px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgb(179, 174, 174);
+}
+ #hometab
+{
+    height: 573px;
+    width: 900px;
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+    overflow-y: auto;
+    margin: 20px;
+    padding: 10px;
+    /* z-index: -1; */
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    
+    left: 35%;
+    top: 45%;
+}
+i
+{
+    margin: 10px;
+    padding: 5px; 
+    font-size: 30px;
+    color: red;
+}
+.name
+{
+    position:relative;
+    left:2%;
+    top:40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 2px;
+}
+.lname
+{
+    position: relative;
+    left:3%;
+    top:40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.title
+{
+    position: relative;
+    left:2%;
+    top:45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 500; 
+}
+#aboutme
+{
+    height: 573px;
+    width: 900px;
+    background-color:black ;
+    margin: 20px;
+    padding: 10px;
+}
+#skillstab
+{
+    height: 573px;
+    width: 900px;
+    background-color:black ;
+    margin: 20px;
+    padding: 10px;
+}
+#projecttab
+{
+    height: 573px;
+    width: 900px;
+    background-color:black ;
+    margin: 20px;
+    padding: 10px;
+}
+#contacttab
+{
+    height: 573px;
+    width: 900px;
+    background-color:black ;
+    margin: 20px;
+    padding: 10px;
+}
+.intro1
+{
+    /* justify-content: left; */
+    position:relative;
+    right: 35%;
+    top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
+.intro2
+{
+    position:relative;
+    right: 2%;
+    top: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: red; */
+    
+    font-size: 25px;
+    font-weight: 300;
+}
+.skill-heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    padding: 25px;
+    
+}
+.html
+{
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 10px rgb(67, 66, 67) ;
+    border-radius: 15px;
+    position: relative;
+   top: 10%;
+    left:20%;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.css
+{
+    height: 100px;
+    width: 200px;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 10px 10px rgb(67, 66, 67) ;
+    border-radius: 15px;
+    position: relative;
+    top: 10%;
+    left:60%;
+    margin: 10px;
+    padding: 10px;
+}
+.js
+{
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 10px rgb(67, 66, 67) ;
+    border-radius: 15px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 10%;
+    left:20%;
+    margin: 10px;
+    padding: 10px;
+}
+.node
+{
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 10px rgb(67, 66, 67) ;
+    border-radius: 15px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 10%;
+    left:60%;
+    margin: 10px;
+    padding: 10px;
+}
+.hr-box
+{
+    height: 5px;
+    width: 5px;
+    display: flex;
+   
+}
+.hrlines
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.projectHeading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    padding: 25px;
+    
+}
+.card1-2
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pro1
+{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 10%;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(67, 66, 67) ;
+}
+.text1
+{
+    height: 100px;
+    width: 200px;
+    
+    position: relative;
+    left: 8%;
+    margin: 10px;
+    padding: 10px;
+}
+.pro2
+{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(67, 66, 67) ;
+    position: relative;
+   left: 9%;
+   margin: 10px;
+  
+}
+.text2
+{
+    height: 100px;
+    width: 200px;
+   
+    position: relative;
+    left: 7%;
+    margin: 10px;
+    padding: 10px;
+}
+.card3-4
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.pro3
+{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(67, 66, 67) ;
+    position: relative;
+    left: 10%;
+    margin: 10px;
+   
+}
+.text3
+{
+    height: 100px;
+    width: 200px;
+  
+    position: relative;
+    left: 8%;
+    margin: 10px;
+    padding: 10px; 
+}
+.pro4
+{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 5px 5px rgb(67, 66, 67) ;
+    position: relative;
+    left: 9%;
+    margin: 10px;
+   
+}
+.text4
+{
+    height: 100px;
+    width: 200px;
+   
+    position: relative;
+    left: 7%;
+    margin: 10px;
+    padding: 10px;
+}
+.pro
+{
+    height: 150px;
+    width: 170px;
+}
+.contactheading
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+.form
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 10%;
+    right: 17%;
+}
+.inputArea
+{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    height: 25px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.btn
+{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0px 0px 5px 5px rgb(67, 66, 67) ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+.address
+{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    left: 70%;
+   bottom: 40%;
+    
+}
