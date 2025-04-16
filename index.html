@@ -20,16 +20,17 @@
 </head>
 <body>
 <div id="container">
-       <div id="nav">
-           <img class="logo-name" src="Images/Shivani-removebg-preview.png" alt="name">
-            <div class="nav-content">
-                <a href="#about"><p>Home</p></a>
-                <a href="#education"> <p>Education</p></a>
-               <a href="#project"> <p>Projects</p></a>
-               <a href="#contact"><p>Contact</p></a>
-                
-            </div>
-       </div>
+    <div id="nav">
+        <img class="logo-name" src="Images/Shivani-removebg-preview.png" alt="name">
+        <button id="menu-btn" class="menu-btn">☰</button>
+        <div class="nav-content">
+            <a href="#about"><p>Home</p></a>
+            <a href="#education"><p>Education</p></a>
+            <a href="#project"><p>Projects</p></a>
+            <a href="#contact"><p>Contact</p></a>
+        </div>
+    </div>
+    
        <hr>
     <div id="home">
         <div class="left">
@@ -77,48 +78,63 @@
         </div>
     </div>
        <div id="about">
-        <h2 style="padding: 5px; margin-left: 40px; padding-top: 30px; color: rgb(223, 223, 223);">
+        <h2 style="color: rgb(223, 223, 223);">
             About
             <hr style="width: 50px; height: 3px; background-color:rgb(223, 223, 223) ; border-radius: 10px;">
         </h2>
         <div class="about-content">
-            <p>Hi!, I am Shivani Dighe, and currently studying IT Engineering at KKWIEER.</p>
+            <!-- <p>Hi!, I am Shivani Dighe, and currently studying IT Engineering at KKWIEER.</p>
             <p>I enjoy building websites and exploring new technologies.</p>
             <p>My area of interest is in Web Development focused on building attractive frontend. </p>
             <p>Up-to-date with leading-edge technologies, efficient in problem solving. </p>
             <p>From third year of my college I picked a habit of solving atleast one problem a day.</p>
             <p>This consistency help me to improve my problem solving and development skills.</p>
-            <p>GeeksForGeeks:
-                <a href="https://auth.geeksforgeeks.org/user/shivanidiw8u3" style="color: rgb(63, 62, 62);">shivanidighe</a>
+            <p>GeeksForGeeks: -->
+                <li><strong>Hi! I’m Shivani Dighe</strong>, an IT Engineering student at KKWIEER, currently focused on Web Development.</li>
+                <li>Passionate about building clean, interactive websites that provide intuitive user experiences.</li>
+                <li>Experienced with technologies: HTML, CSS, JavaScript, React, NodeJs, ExpressJs, MongoDB.</li>
+                <li>Eager to learn and experiment with new tools in the ever-evolving world of web development.</li>
+                <li>Love challenging myself with new challenges on platforms like <strong>GeeksForGeeks</strong>: <a href="https://auth.geeksforgeeks.org/user/shivanidiw8u3" style="color: rgb(63, 62, 62);">shivanidighe</a></li>
+                <li>Feel free to connect with me or check out my projects to see what I’ve been working on!</li>
+                
             </p>
             <a href="Images/Minimalist CV Resume (1).pdf" download="shivaniResume.pdf"><button class="resume-btn">Resume</button></a>
         </div>
        </div>
        <div id="education">
-        <h2 style="padding: 5px; margin-left: 40px; padding-top: 30px; color: black;">
-            Education
-            <hr style="width: 50px; height: 3px; background-color:black ; border-radius: 10px;">
-        </h2>
-        <div class="edu">
-            <div class="timeline">
+    <h2 style="color: black;">
+        Education
+        <hr style="width: 50px; height: 3px; background-color: black; border-radius: 10px;">
+    </h2>
+    <div class="edu">
+        <div class="timeline">
+            <div class="dot"></div>
+            <div class="content">
                 <h3>SSC</h3>
-                <h4 style="color: rgb(65, 63, 63);">B.K.Kawale Vidyalay R.Nagar</h4>
-                <p style="color: rgb(65, 63, 63); font-size: 14px;">Percentage:89.8%</p>
-            </div>
-            <!-- <div class="vl"></div> -->
-            <div class="timeline">
-                <h3>HSC</h3>
-                <h4 style="color: rgb(65, 63, 63);">B.K.Kawale Jr. College R.Nagar</h4>
-                <p style="color: rgb(65, 63, 63); font-size: 14px;">Percentage:91.8%</p>
-            </div>
-            <!-- <div class="vl"></div> -->
-            <div class="timeline">
-                <h3>BE.Information Technology</h3>
-                <h4 style="color: rgb(65, 63, 63);">KKWIEER,Nashik</h4>
-                <p style="color: rgb(65, 63, 63); font-size: 14px;">CGPA:8.55</p>
+                <h4>B.K.Kawale Vidyalay R.Nagar</h4>
+                <p>Percentage: 89.8%</p>
             </div>
         </div>
-       </div>
+        <div class="timeline">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>HSC</h3>
+                <h4>B.K.Kawale Jr. College R.Nagar</h4>
+                <p>Percentage: 91.8%</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>BE.Information Technology</h3>
+                <h4>KKWIEER, Nashik</h4>
+                <p>CGPA: 8.55</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
     <div id="project">
         <h2 style="padding: 5px; margin-left: 40px; padding-top: 30px; color: black;">
             Project
@@ -353,9 +369,10 @@
     
        <div id="contact">
         <h2 style="padding: 5px;margin-left: 40px; padding-top: 30px; color: rgb(223, 223, 223);">
-           Conatct
+           Contact
             <hr style="width: 50px; height: 3px; background-color:rgb(223, 223, 223) ; border-radius: 10px;">
         </h2>
+        
         <p>shivanidighe2003@gmail.com</p>
         <p>Youtube:<a style="color: #d2cfcf;" href="www.youtube.com/@follow.yourPassion">
             @follow.yourPassion</a></p>
